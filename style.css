@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    position: fixed;
+    background-color: #61a0fb;
+    z-index: 999;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+}
+.logo{
+    font-size: 1.8em;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    padding-left: 40px;
+}
+nav{
+    width: 50%; 
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 500;
+}
+nav a{
+    color: white;
+}
+nav a:hover{
+    color: #d7e7fd;
+}
+section{
+    padding: 120px 60px;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.main h2{
+    color: #1457d6;
+    font-size: 1.8em;
+    font-weight: 700;
+}
+.main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color: #61a0fb;
+    font-size: 2.5em;
+    font-weight: 600;
+}
+.main h4{
+    color: #1457d6;
+    font-size: 1.8em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.main p{
+    color: #1457d6;
+    margin-bottom: 20px;
+}
+.mainbutton{
+    color: white;
+    background-color: #1457d6;
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 0.9375em;
+    display: inline-block;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    transition: 0.7s ease;
+}
+.mainbutton:hover{
+    background-color: #61a0fb;
+    transform: scale(1.1);
+}
+.socialicons a{
+    color: #1457d6;
+    font-size: 1.7em;
+    margin-right: 20px;
+    float: left;
+}
+.socialicons:hover a{
+    color: #d7e7fd;
+}
+.photo {
+    display: flex;
+    align-items: center;
+    margin-left: 170px;
+    margin-top: 20px;
+}
+.photo img {
+    height: 400px;
+    width: 400px;
+    margin-left: 20px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: #1457d6;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.cards{
+    background-color: #d7e7fd;
+}
+.card{
+    background-color: white;
+    box-shadow: 0 5px 25px rgba(1 1 1/30%);
+    width: 10em;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.icon{
+    color: #1457d6;
+    font-size: 5em;
+    text-align: center;
+}
+.info h3{
+    color: #1457d6;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+.projectcard{
+    background-color: white;
+    box-shadow: 0 5px 25px rgba(1 1 1/30%);
+    border-radius: 10px;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+.projects .content{
+    margin-top: 30px;
+}
+
+.projectcard:hover{
+    transform: scale(1.1);
+}
+.projectimage img{
+    width: 100%;
+}
+.projectcard:hover .projectimage{
+    opacity: 0.9;
+}
+.projectinfo{
+    padding: 1em;
+}
+.projecttitle{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.moredetails{
+    color: #1457d6;
+}
+.moredetails:hover{
+    color: #d7e7fd;
+}
+.resume{
+    background-color: #d7e7fd;
+}
+.resphoto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.resphoto img {
+    height: 400px;
+    width: 400px;
+    margin-left: 20px;
+    border-radius: 60%;
+}
+.contactcard{
+    background-color: white;
+    box-shadow: 0 5px 25px rgba(1 1 1/30%);
+    border-radius: 10px;
+    min-height: 10em;
+    width: 18em;
+    overflow: hidden;
+    margin: 15px;
+    display: inline-block;
+    transition: 0.7s ease;
+}
+.contactcard:hover{
+    transform: scale(1.1);
+}
+.cardscontact .icon{
+    font-size: 4.5em;
+    margin-top: 20px;
+}
+.cardscontact .info h3{
+    color: #000;
+}
+.cardscontact .info p{
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.footer{
+    background-color: #61a0fb;
+    color: white;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+.footertitle{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+.footertitle span{
+    color: #1457d6;
+}
+.resumebtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+@media (max-width:1023px){
+    header{
+        padding: 12px 20px;
+    }
+    .navigation{
+        padding-left: 10px;
+    }
+    .title{
+        font-size: 1.8em;
+    }
+    .section{
+        padding: 80px 20px;
+    }
+    .main h2{
+        font-size: 1em;
+    }
+    .main h4{
+        font-size: 1.6em;
+    }
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+}
